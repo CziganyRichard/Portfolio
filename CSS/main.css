@@ -1,0 +1,122 @@
+body{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	background-color: #4B4A52 ;
+	margin: 0px;
+	color: white;
+
+}
+header{
+	font-size: 32px;
+	background-color: #5D6170;
+}
+h1{
+	background-color: #5D6170;
+	user-select: none;
+	padding: 2rem;
+	margin-top: 0;
+	text-align: center;
+	font-size: 32px;
+}
+details{
+	text-align: left; 	
+	padding-left:1rem;
+	margin: 0;
+	width: 14rem;
+	background-color: #7E8395;
+	font-size: 26px;
+	cursor: pointer;
+	transition: .3s;	
+}
+details. hover{
+	background-color: #494C59;
+}
+summary: hover{
+	cursor: pointer;
+}
+.gomb{
+	padding-left:1rem;
+	margin-left: 0.5rem;
+
+	width: 10rem;
+	background-color: #7E8395;
+	font-size: 26px;
+	height: all;
+	transition: .3s;
+
+}
+.gomb:hover{
+	background-color: #494C59;
+}
+ul{
+	margin: 0;
+}
+main{
+	border: 5px solid black;
+	padding: color: black;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	border-radius: 1rem;
+}
+.Főoldal{
+	text-align: left;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	box-sizing: border-box;
+    margin: 15rem 10%;
+
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+p{
+	max-width: 100%;
+	font-size: 20px;
+}
+img{
+	border-radius: 1rem;
+}
+.Kepek_grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	box-sizing: border-box;
+    margin: 3rem 10%;
+    grid-gap: 1.5rem;
+}
+.kép{
+	border-radius: 0.5rem;
+	
+	max-height: 100%;
+}
+.kép:hover{
+	transition: transform .2s;
+}
+
+.Cím{
+	text-align: center;
+	font-size: 32px;
+	background-color: 
+}
+.kapcsolat_szöveg{
+	font-size: 32px;
+	text-align: center;
+}
+b{
+	font-weight: bold;
+	font-size: 26px;
+}
+.tervkepek{
+	display: block;
+	box-sizing: border-box;
+    margin: 3rem 10%;
+    padding: 0;
+    text-align: center;
+    font-size: 26;
+}
+.tervkepek img{
+	border: 5px solid black;
+}
+
+
